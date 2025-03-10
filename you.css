@@ -1,0 +1,19 @@
+lite-youtube::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(180deg, rgb(0 0 0/67%) 0%, rgb(0 0 0/54%) 14%, rgb(0 0 0/15%) 54%, rgb(0 0 0/5%) 72%, rgb(0 0 0/0%) 94%);
+    height: 99px;
+    width: 100%;
+    font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+    color: white; /* Cor do texto alterada para branco */
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    font-size: 14px; /* Alterado para 14px */
+    font-weight: normal; /* Removido o negrito */
+    padding: 25px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
